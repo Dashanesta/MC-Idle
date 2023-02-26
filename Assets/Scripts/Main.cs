@@ -5,17 +5,19 @@ using UnityEngine.UI;
 
 public class Main : MonoBehaviour
 {
+    int currency;
     int grass_blocks;
+    
 
-    // Start is called before the first frame update
     void Start()
     {
+        currency = 0;
         grass_blocks = 0;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void grass_block()
     {
-        
+        currency++;
     }
+
 }
